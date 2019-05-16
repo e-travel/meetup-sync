@@ -18,7 +18,7 @@ module MeetupSync
         radius: 15.0,
         topic_category: 292,
         start_date_range: DateTime.now.strftime('%Y-%m-%dT%H:%M:%S'),
-        end_date_range: (DateTime.now + 7).strftime('%Y-%m-%dT%H:%M:%S'),
+        end_date_range: (DateTime.now + 15).strftime('%Y-%m-%dT%H:%M:%S'),
         order: 'time'
       }
 
