@@ -49,7 +49,7 @@ module MeetupSync
       events.each do |event|
         event_data = {
             summary:     event.name,
-            location:    (event.venue.name if event.venue),
+            location:    (event.venue.full_location if event.venue),
             description: event.description,
             start:       {
                 date_time: event.start_date_time.rfc3339,
