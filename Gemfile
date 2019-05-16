@@ -6,4 +6,5 @@ gem 'google-api-client'
 
 group :test do
   gem 'rspec'
+  gem 'webmock'
 end
